@@ -26,7 +26,7 @@ class Order extends React.Component{
 		return (
 			<div className="order-wrap">
 			<center>
-				<h2>Total Coast</h2>
+				<h2>Total Cost</h2>
 				<ul className='order'>
 					{orderIds.map(this.renderOrder)}
 				</ul>

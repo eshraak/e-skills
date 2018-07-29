@@ -18,7 +18,7 @@ export default class Home extends Component {
       <Grid>
         <Jumbotron>
          <center> <h2>Welcome to e-Skills</h2>
-          <p>Where you can find all skills</p>
+          
           <StorePicker history={this.props.history}/></center>
         </Jumbotron>
        
